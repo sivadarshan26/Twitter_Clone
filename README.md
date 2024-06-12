@@ -1,4 +1,4 @@
-# ** (formerly Twitter) Login / Landing Page - A Try**
+# X (formerly Twitter) Login / Landing Page - A Try
 
 ## Built With:
 - [React](https://react.dev/)
