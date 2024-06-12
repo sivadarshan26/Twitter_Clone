@@ -1,11 +1,10 @@
-** (formerly Twitter) Login / Landing Page - A Try**
+# ** (formerly Twitter) Login / Landing Page - A Try**
 
-Built With:
+## Built With:
+- [React](https://react.dev/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- Tailwind CSS
 
-React
-React Icons
-Tailwind CSS
-Acknowledgments:
-
-React: https://react.dev/
-React Icons: https://react-icons.github.io/react-icons/
+## Acknowledgments:
+- [React](https://react.dev/)
+- [React Icons](https://react-icons.github.io/react-icons/)
