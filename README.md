@@ -1,14 +1,11 @@
-X (formerly Twitter) login / landing page - a try
+** (formerly Twitter) Login / Landing Page - A Try**
 
-Built With
+Built With:
 
 React
 React Icons
-Tailwindcss
+Tailwind CSS
+Acknowledgments:
 
-Acknowledgments
-
-React - https://react.dev/
-React Icons - https://react-icons.github.io/react-icons/
-Font Awesome (for icons used in this example) - https://fontawesome.com/ (Consider mentioning FontAwesome if you're using their free icons)
-Merriweather Sans (for font used in this example) - https://fonts.google.com/specimen/Merriweather+Sans (Consider mentioning the font if you're using a non-standard font)
+React: https://react.dev/
+React Icons: https://react-icons.github.io/react-icons/
