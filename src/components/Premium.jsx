@@ -111,6 +111,9 @@ const Premium = () => {
                 
             </div>
 
+            <div className='hover:bg-white/5 p-3 cursor-pointer'>
+                <p className='text-sky-500'>Show more</p>
+            </div>
 
         </div>
 

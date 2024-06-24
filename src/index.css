@@ -6,3 +6,23 @@
   background-color: #000000;
 }
 
+/* For Webkit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 12px;  /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;  /* Background of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.5);  /* Color of the scrollbar thumb with some transparency */
+  border-radius: 10px;  /* Rounded corners */
+  border: 3px solid transparent;  /* Space around the thumb for transparency effect */
+}
+
+/* For Firefox */
+html {
+  scrollbar-width: thin;  /* Width of the scrollbar */
+  scrollbar-color: rgba(0, 0, 0, 0.5) transparent;  /* Color of the thumb and track */
+}
