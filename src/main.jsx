@@ -7,6 +7,7 @@ import Home from './pages/Home.jsx'
 import './index.css'
 import Posts from './components/Posts.jsx'
 import App from './App.jsx'
+import Premium from './components/Premium.jsx'
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+  },
+  {
+    path: "/premium",
+    element: <Premium />,
   },
 ]);
 
