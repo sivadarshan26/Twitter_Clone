@@ -1,6 +1,7 @@
 import logo from '../assets/logo.svg';
 import { FcGoogle } from "react-icons/fc";
 import { FaApple } from "react-icons/fa";
+import {Link} from "react-router-dom";
 
 
 const Login = () => {
@@ -37,7 +38,9 @@ const Login = () => {
                     </p>
 
                     <p className='font-bold text-lg text-white mt-[40px]'>Already have an account?</p>
-                    <button className='rounded-full border-[0.5px] border-white font-semibold py-2 text-[#0099EB] mt-2'> Sign in</button>
+                    <Link to="/home" className='rounded-full border-[0.5px] border-white font-semibold py-2 text-[#0099EB] mt-2 text-center'>
+                       Sign in
+                    </Link>
                   </div>
                 </div>
               </div>

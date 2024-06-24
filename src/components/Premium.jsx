@@ -8,7 +8,7 @@ import { BiSolidBadgeCheck } from "react-icons/bi";
 
 const Premium = () => {
   return (
-    <div className="w-[380px] p-2 space-y-3">
+    <div className="w-[380px] p-2 space-y-3 pt-0">
         <div className="py-2 h-14 sticky top-0 bg-black">
             <input className="w-full outline-none rounded-full bg-gray-800 h-full px-3 text-white items-center flex" placeholder="Search" />
         </div>
