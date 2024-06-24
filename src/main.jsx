@@ -5,6 +5,8 @@ import {  createBrowserRouter,  RouterProvider,} from "react-router-dom";
 import Sidebar from './components/Sidebar.jsx'
 import Home from './pages/Home.jsx'
 import './index.css'
+import Posts from './components/Posts.jsx'
+import App from './App.jsx'
 
 const router = createBrowserRouter([
   {
@@ -18,6 +20,14 @@ const router = createBrowserRouter([
   {
     path: "/home",
     element: <Home />,
+  },
+  {
+    path: "/posts",
+    element: <Posts />,
+  },
+  {
+    path: "/",
+    element: <App />,
   },
 ]);
 

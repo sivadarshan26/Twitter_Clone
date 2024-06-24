@@ -1,0 +1,5 @@
+.blur-background {
+    background-color: rgba(0, 0, 0, 0.8); /* Black background with 30% opacity */
+    backdrop-filter: blur(10px); /* Blur effect of 50px */
+  }
+  

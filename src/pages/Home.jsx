@@ -8,7 +8,6 @@ import { IoLocationOutline } from "react-icons/io5";
 import { FaGlobeAmericas } from "react-icons/fa";
 import { FiPlus } from "react-icons/fi";
 
-
 const Home = () => {
   const [activeTab, setActiveTab] = useState('For You');
   const [activeIcon, setActiveIcon] = useState('');
@@ -36,8 +35,8 @@ const Home = () => {
   ];
 
   return (
-    <>
-      <div className="flex w-full justify-between text-lg h-14 border-x border-b border-gray-700 ">
+    <div className='relative '>
+      <div id='fixed' className="fixed top-0 flex w-full justify-between text-lg h-14 border-x border-b border-gray-700 bg-black z-10">
         <div
           className={`flex justify-center w-full py-2 cursor-pointer bg-black hover:bg-black/90
             ${activeTab === 'For You' ? 'text-white font-semibold' : 'text-gray-400'}`}
@@ -57,8 +56,8 @@ const Home = () => {
         </div>
       </div>
 
-      <div className='bg-black w-auto p-5 border border-t-0 border-gray-700'>
-        <div className='flex '>
+      <div id='scrolable' className='bg-black w-full p-5 border border-t-0 border-gray-700 overflow-y-auto  mt-14'>
+        <div className='flex'>
           <img src={avatar} className='size-12 rounded-full'/>
           <input 
             className='ml-4 bg-inherit outline-none text-white text-xl' 
@@ -90,23 +89,21 @@ const Home = () => {
             </div>
           ))}
           <div className='flex ml-auto mt-4 mr-2 gap-4'>
-          {inputValue && (
-          <div className='flex gap-4'>  
-          <hr className='h-auto border-[0.2px] border-gray-700' />  
-
-          <a id='plus' className= 'flex items-center px-2 rounded-full font-semibold text-sky-500 border-[0.3px] border-gray-700 cursor-pointer hover:bg-sky-500/10'>
-            <FiPlus  className='size-5 '/>
-          </a>
-          </div>
-        )}
-        
-          <button id='post' className='ml-auto bg-sky-500 py-1.5 px-4 rounded-full font-semibold text-white'>
-            Post
-          </button>
+            {inputValue && (
+              <div className='flex gap-4'>  
+                <hr className='h-auto border-[0.2px] border-gray-700' />  
+                <a id='plus' className= 'flex items-center px-2 rounded-full font-semibold text-sky-500 border-[0.3px] border-gray-700 cursor-pointer hover:bg-sky-500/10'>
+                  <FiPlus  className='size-5 '/>
+                </a>
+              </div>
+            )}
+            <button id='post' className='ml-auto bg-sky-500 py-1.5 px-4 rounded-full font-semibold text-white'>
+              Post
+            </button>
           </div>
         </div>
       </div>
-    </> 
+    </div>
   );
 };
 
